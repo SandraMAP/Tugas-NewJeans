@@ -1,0 +1,66 @@
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #faa2a2;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .navbar {
+            color: #fff;
+            padding: 10px;
+        }
+
+        .navbar ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        .navbar li {
+            margin: 0 20px;
+        }
+
+        footer {
+            background-color: #f0f0f0;
+            padding: 10px;
+            text-align: center;
+        }
+
+        main {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        article {
+            padding: 20px;
+            flex: 2; /* Menambahkan flex: 1 untuk mengatur lebar artikel agar sama */
+        }
+
+        article img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        aside {
+            flex: 1; /* Mengatur elemen aside agar lebih kecil */
+            padding: 20px;
+        }
+
+        aside img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .card {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            border-radius: 5px;
+          
+            padding: 20px;
+            margin-top: 20px;
+          }
